@@ -1,0 +1,12 @@
+ .body {
+    width: 80rem !important;
+    margin: 1rem auto !important;
+ }
+
+ .strong {
+    font-weight: bolder;
+ }
+
+ #dashbord {
+  height: 100vh;
+}

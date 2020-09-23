@@ -1,0 +1,85 @@
+
+ .body {
+  width: 80rem !important;
+  margin: 1rem auto !important;
+ }
+
+ .body_form {
+  width: 50rem !important;
+  margin: 1rem auto !important;
+ }
+
+ .footer {
+  width: 100px;
+  float: right;
+  margin-right: 1rem;
+ }
+
+ .strong {
+    font-weight: bolder;
+ }
+
+ #voltar footer {
+    margin-top: 48px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #voltar footer a {
+    color: var(--title-color);
+    font-weight: bold;
+    text-decoration: none;
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  #voltar footer a svg {
+    margin-right: 16px;
+    color: var(--primary-color);
+  }
+
+   
+  #page-create-user form button {
+    background: var(--primary-color);
+    flex: 1;
+    text-align: center;
+    color: #FFF;
+    margin: 2px;
+    font-weight: bolder;
+  }
+
+  #page-create-user form button:hover {
+    background: #2f343d;
+  }
+
+  #cancelar {
+    color: #fff !important;
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+}
+
+.div_admin {
+  margin-top: 10px;
+}
+
+.input_check {
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
+#cancelar {
+  color: #fff !important;
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
+}
+
+.cabecalho {
+  text-align: center;
+}
+
+.row_center {
+  text-align: center;
+}

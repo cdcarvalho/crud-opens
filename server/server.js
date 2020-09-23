@@ -1,6 +1,7 @@
 require('dotenv/config')
 
 const express = require('express')
+var cors = require('cors');
 const app = express();
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
@@ -13,6 +14,7 @@ mongoose.connect(process.env.URL_MONGODB, { useUnifiedTopology: true, useNewUrlP
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.use(cors());
 
 var router = express.Router();
 
@@ -63,7 +65,7 @@ router.get('/token-valid', function (request, response) {
 
 router.use(auth);
 
-router.get('/', function (request, response) {
+router.get('/users', function (request, response) {
     User.find(function (error, users) {
         if (error)
             response.send(error);
