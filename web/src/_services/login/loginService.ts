@@ -20,9 +20,9 @@ export class LoginService {
     }
   }
 
-  async authenticated() {
+  async tokenValid() {
     try {
-      const valid = await api.get('authenticated', {
+      const valid = await api.get('token-valid', {
         headers: {
           Authorization: `Basic ${getToken()}`
         }

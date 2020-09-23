@@ -3,5 +3,5 @@ export default class User {
     login: string
     password: string
     name: string
-    email: boolean
+    email: string
 }

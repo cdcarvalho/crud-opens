@@ -15,6 +15,6 @@ export const isAuthenticated = () => {
 }
 
 const isValid = async () => {
-    valid = await loginService.authenticated();
+    valid = await loginService.tokenValid();
     return valid
 }
