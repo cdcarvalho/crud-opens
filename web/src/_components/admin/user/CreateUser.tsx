@@ -7,7 +7,7 @@ import { getToken } from '../../../_services/auth';
 import './user.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-export const CreateCategory = () => {
+export const CreateUser = () => {
 
     const history = useHistory();
 
@@ -98,4 +98,4 @@ export const CreateCategory = () => {
         </Container>
     )
 }
-export default CreateCategory;
+export default CreateUser;
