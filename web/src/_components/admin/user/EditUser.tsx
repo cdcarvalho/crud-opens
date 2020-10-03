@@ -4,7 +4,7 @@ import { useHistory, useParams } from 'react-router-dom'
 import api from '../../../_services/api'
 import { getToken } from '../../../_services/auth'
 
-export const EditCategory = () => {
+export const EditUser = () => {
   const history = useHistory()
   const { id } : any = useParams();
 
@@ -124,4 +124,4 @@ export const EditCategory = () => {
     </div>
   )
 }
-export default EditCategory
+export default EditUser
